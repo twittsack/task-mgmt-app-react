@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/task-mgmt-app-react/static/css/main.0e23797b.css",
-    "main.js": "/task-mgmt-app-react/static/js/main.c7109f61.js",
+    "main.js": "/task-mgmt-app-react/static/js/main.87d2920f.js",
     "index.html": "/task-mgmt-app-react/index.html",
     "main.0e23797b.css.map": "/task-mgmt-app-react/static/css/main.0e23797b.css.map",
-    "main.c7109f61.js.map": "/task-mgmt-app-react/static/js/main.c7109f61.js.map"
+    "main.87d2920f.js.map": "/task-mgmt-app-react/static/js/main.87d2920f.js.map"
   },
   "entrypoints": [
     "static/css/main.0e23797b.css",
-    "static/js/main.c7109f61.js"
+    "static/js/main.87d2920f.js"
   ]
 }
