@@ -9,7 +9,8 @@ The WebApp is created using CSS, JavaScript, and React.  A json file is used for
 - The todos webpage will allow adding a new task, viewing a list of all tasks, completed tasks, or incomplete tasks.  Additionally, the todos webpage will allow tasks to be updated, marked complete or deleted.
 
 **Links**
-
+- https://twittsack.github.io/task-mgmt-app-react/
+- https://github.com/twittsack/task-mgmt-app-react
 
 **Future Development:**
 - Create a webpage which lists per Task all contact engagements.
