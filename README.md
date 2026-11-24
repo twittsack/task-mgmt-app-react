@@ -14,6 +14,7 @@ The WebApp is created using CSS, JavaScript, and React.  A json file is used for
 **Future Development:**
 - Create a webpage which lists per Task all contact engagements.
 - Create a webpage which lists per contact parameters (i.e. email, first name + last name) all Tasks initiated.
+- Add Request Date, Start Date, and Completed Date to the Tasks & appropriate search params for the various dates.
 
 **User Stories**
 
