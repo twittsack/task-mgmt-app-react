@@ -1,0 +1,14 @@
+[
+  {
+    "id": "c5093192-0f48-4397-a41a-681ad6ca2b01",
+    "title": "Task1 - Create React App",
+    "description": "Create a React App for managing tasks",
+    "completed": false
+  },
+  {
+    "id": "9301910f-84ef-40c6-80c6-9f91225734ef",
+    "title": "Task 2 - Add Styling to Task Manager App",
+    "description": "Create various CSS files for Task Manager Components",
+    "completed": false
+  }
+]

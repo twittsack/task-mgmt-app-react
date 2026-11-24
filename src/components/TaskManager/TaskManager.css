@@ -1,0 +1,102 @@
+.task-manager {
+  width: 100%;
+  max-width: 700px;
+  margin: 0;
+  padding: 4px;
+  font-family: Arial, sans-serif;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.task-form input,
+.task-form select,
+.task-form textarea {
+  padding: 4px;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.task-form textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+button {
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+button:hover {
+  background: darkgray;
+}
+
+.task-actions {
+  margin-bottom: 2px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.task.completed {
+  background: #e8f5e9;
+  opacity: 0.7;
+}
+
+.task.completed h3,
+.task.completed p {
+  text-decoration: line-through;
+}
+
+.task-content {
+  flex: 1;
+}
+
+.task-content h3 {
+  margin: 0 0 5px;
+}
+
+.task-content p {
+  margin: 0;
+  color: #555;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.task-buttons .complete-btn
+ {
+  background-color: darkgreen;
+}
+
+.task-buttons .edit-btn {
+  background-color: yellowgreen;
+}
+
+.task-buttons .delete-btn {
+  background-color: red;
+}
