@@ -29,17 +29,17 @@ function Contact() {
 const pages = {
   home: { 
     label: 'Home',
-    path: 'task-mgmt-app-react/',
+    path: '/',
     component: <Home />
   },
   todos: {
     label: 'Todos',
-    path: 'task-mgmt-app-react/todos',
+    path: '/todos',
     component: <Todos />
   },
   contact: {
     label: 'Contact',
-    path: 'task-mgmt-app-react/contact',
+    path: '/contact',
     component: <Contact />
   }
 };
