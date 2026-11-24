@@ -18,7 +18,7 @@ export default function ContactForm() {
     return (
         <>
         <p class="contact-form">Thanks for contacting us!</p>
-        <p><a href="task-mgmt-app-react/">Return to Home</a></p>
+        <p><a href="/">Return to Home</a></p>
         </>
     );
   }
