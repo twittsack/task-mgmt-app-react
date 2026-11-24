@@ -1,6 +1,8 @@
 import './App.css';
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
+import TaskManager from "./components/TaskManager/TaskManager";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function Home() {
   return (
@@ -10,28 +12,18 @@ function Home() {
                 <li>Add Tasks</li>
                 <li>Update Tasks</li>
                 <li>Delete Tasks</li>
-                <li>Use the Contact form to provide details on a new or existing Task</li>
+                <li>Download the Task List to local storage in JSON format</li>
             </ul>
     </section>
   );
 }
 
 function Todos() {
-  return (
-    <section>
-      <h1>Todos Page</h1>
-      <p>This is the contact endpoint: <strong>/todos</strong></p>
-    </section>
-  )
+  return <TaskManager />;
 }
 
 function Contact() {
-  return (
-    <section>
-      <h1>Contact Page</h1>
-      <p>This is the contact endpoint: <strong>/contact</strong></p>
-    </section>
-  );
+  return <ContactForm />;
 }
 
 const pages = {
@@ -96,17 +88,12 @@ function App() {
   }, [currentPath]);
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div>
       <Navbar
         pages={pages}
         currentPath={currentPath}
         onNavigate={navigate}
       />
-
-      <p>
-        Current endpoint: <strong>{currentPath}</strong>
-      </p>
-
       <main>{currentPage.component}</main>
     </div>
   );
