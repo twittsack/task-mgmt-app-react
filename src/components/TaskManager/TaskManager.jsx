@@ -129,7 +129,7 @@ export default function TaskManager() {
   }
 
   return (
-    <div class="container">
+
     <div className="task-manager">
       <h2>Task Manager</h2>
 
@@ -226,7 +226,6 @@ export default function TaskManager() {
           </ul>
         )}
       </div>
-    </div>
     </div>
   );
 }
