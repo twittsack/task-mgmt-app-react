@@ -29,4 +29,3 @@ The WebApp is created using CSS, JavaScript, and React.  A json file is used for
 - As a developer of the WebApp, I want to update the Tasks for the ToDo List.
 - As a developer of the WebApp, I want to be able to mark Tasks in the ToDo List as completed.
 - As a developer of the WebApp, I want to delete Tasks in the ToDo List.
-- As a developer of the WebApp, I want to update a json flat file with contact info & task info.
